@@ -441,6 +441,9 @@ TT käänsi katseensa kahvilaan:
 - hahmojen nimet
 - nimi
 - kappalejako, repliikkien kappalejako
+- sukunimet pois, kertoja käyttää etunimiä, hahmot eivät käytä nimiä
+- anonyymit avustajat
+- esittelyn repliikit pois: sano epäsuorasti
 
 Nimiehdotuksia:
 - Kadonnutta aikaa eläessä
@@ -467,5 +470,135 @@ Järjestys:
 ??? Keskustelu (filosofia)
 Miksi suostuit haastatteluun ja kerroit kaken tämän?
 ??? Aikamatka
+
+
+
+Novelli-idea 11.12.2012, aiheeseen palattu 6.1.2014
+
+== SPOLIERZ ==
+
+trilleri, dekkari, sci-fi, 20 sivua
+
+---
+
+Meta:
+- tyylilaji: mysteeri, dekkari, scifi
+- aiheet: X:n elämän yksityiskohdat, filosofia, epävarmuus
+- neutraali: jokin kaupunki, jokin aika
+- imperfekti
+- kertojan näkökulma: X (ehkä kaikkitietävä, ei T)
+
+---
+
+Tarinan runko:
+- Henkilö X matkustaa tapaamiseen
+- Paikalla on toimittaja T
+- T haastattelee X:ää oudon elämän ja tapahtumien perusteella
+- X paljastaa kykynsä aikamatkustukseen ja perustelee toimintaansa
+- T utelee aikamatkustamisen ja X:n elämän yksityiskohdista, tauko
+- X käyttää laitettaan 
+
+Loppu:
+- X käyttää laitetta ja se särkyy.
+- Mitään muuta näkyvää ei tapahdu.
+- T arvelee, että aikamatkassa X: mieli ei siirry, vaan _kopioituu_ menneisyyteen eri aikalinjalla
+- X on hämmennyksen vallassa (laite rikki, elämäntapa jatkossa mahdoton, elämäntilanne ei paras)
+
+---
+
+Henkilö X:
+- X:llä on kyky siirtyä ajassa taaksepäin
+- X kuljettaa muistilappuja ja kalenteria mukanaan: lähiaikojen tekemiset. Muuten tulevaisuuden X ei osaisi toimia, jos sattuisi siirtymään tähän menneisyyden aikaan. Aina on paljon kirjaamattomia pikkujuttuja mielessä.
+- X ei tiedä, mitä nykykeholle tapahtuu, kun hän siirtyy ajassa.
+- Kirjoittaa muistiin tärkeät valinnat ja elämän kulun.
+- Valitsee aikamatkustuksen kohdeajan muistioiden perusteella
+- X:n ikä ei ole selvillä. Ehkä satoja vuosia.
+- X paljastaa aikamatkustuksen ensi kertaa, T:lle.
+- X:llä tarve puhua jonkun kanssa aikamatkustuksesta
+
+X:n aikamatkojen hyödyntäminen:
+- ei liian räikeitä onnistumisia, mutta toisaalta tylsää tehdä asiat huomaamattoman hitaasti
+- aikamatkustus menneisyyteen pitää suurinmman osan asioista ennallaan, mutta hiljalleen asiat alkavat muuttua.
+- pidettävä matalaa profiilia, jotta huomio ei kiinnittyisi liiaksi itseen ja muuttuvaan käytökseen.
+- X on saanut viime aikoina liikaa julkisuutta holtittomalla käytöksellään 
+- ansaitsemiskeinoja:
+  * arvonta,
+  * uhkapeli,
+  * sijoitus,
+  * varastaminen,
+  * säästöt (maksetaan, koetaan, sitten siirrytään menneisyyteen)
+- viini, laulu, naiset
+- jos herätetty liikaa huomiota, on parempi kulkea ajassa taaksepäin ja käyttäytyä toisin, jotta epäilykset hälvenevät.
+- nyt on X:lle sellainen hetki, joka pitää peruuttaa aikamatkailulla: julkisuus rajoittaa käytöksen muuttamista
+- vain lyhyitä aikamatkoja, eikä mitään linjaa ole eletty kovin pitkälle
+
+X:n elämä:
+- elämänmuutos 22-vuotiaana, kun sai aikakoneen
+- täynnä outojen muistiinpanojen tekemistä
+- viime aikojen tekninen kehitys mahdollistaa historian tallentamisen ja haun teksti- ääni-, kuva- ja videomuotoisista historiatallenteista.
+- asiat ja muistikuvat sekaantuvat
+- heikot sosiaaliset kontaktit (syvälliset ihmissihteet puuttuvat näennäisesti)
+- tärkeintä elämässä on välttää onnettomuuksia ja salamurhia yms.
+- tekee hyviä tekoja mielenrauhansa vuoksi, vaikka palaakin kohta menneisyyteen
+
+Toimittaja T:
+- Toimittaja tekee työtään: juttu tulossa
+- Toimittaja kerää X:ltä vastauksia havaittuun outoon käytökseen.
+- Kyseenalaistaa X:n toiminnan järkevyyttä
+
+Aikakone:
+- kyky on saatu aikaan välineellä
+- laite saatu perintönä joltakin omalaatuiselta sukulaiselta?
+- laitteen alkuperä lovecraftlaisittain Australiasta
+- Laitteita tunnetaan vain yksi.
+- "pallomainen, jonka pinnalta säädetään haluttu ajanhetki, vieraissa yksiköissä"
+- sukulainen tappoi itsensä laitteen ja ohjeiden luovutuksen jälkeen
+- laite särkyy käytettäessä; käyttäjä havaitsee tämän
+- laitetta säilytetään varmassa paikassa. Jos laite rikkoontuu, aikamatkustus muuttuu mahdottomaksi.
+- T joutuu tarkkailemaan laitetta etäältä, kiikareilla
+
+Aikamatkustuskyky:
+- aikamatkustuslaite on kertakäyttöinen (menneisyyden X:llä on aina ehjä laite tallella)
+- tulevaisuuteen siirtymistä ei ole tutkittu
+- menneisyyteen siirryttäessä laite on vielä ehjä; tulevaisuudessa laite on jo rikkoutunut.
+- aikamatkustuksessa X siirtyy menneisyyden kehoonsa, mutta nykyisellä miellellään
+- rajoite: aikuisen mieli lapsen aivoihin? Aivot kyvykkäimmillään 23-vuotiaana?
+- jokainen aikamatka luo ehkä uuden haaran, johon menneisyys alkaa kulkea?
+- kannattaa siirtyä menneisyyteen, kun kohde nukkuu; muuten orientaatio pettää.
+- on vaarallista siirtyä aikaan, jossa ei tiedä omaa sijaintiaan (keskellä liikennettä tms.)
+- Tiedon siirtäminen menneisyyteen tapahtuu mielessä. Opetellaan ulkoa, siirrytään, kirjoitetaan.
+- aikamatkailun fyysinen perusta on vielä tuntematon
+
+Aikamatkustuksen todennettavuus:
+- itse aikamatkustus ei ole todennettavissa varmaksi millään keinolla
+- tulevaisuuden tapahtumat eivät toteudu aivan suoraan: joko X:n vaikutus tai kvantti-ilmiö
+- yksinkertainen magneettikuvatesti ei toimi: kuva pitäisi siirtää myös menneisyyteen vertailun vuoksi.
+- magneettikuvatesti:
+  * magneettikuva aivoista hetkellä 1,
+  * eletään hetkeen 3, otetaan uusi magneettikuva, ja opetellaan erot ekaan kuvaan ulkoa
+  * siirrytään menneisyyteen hetkeen 2, merkitään muistiin magneettikuvien erot ajanhetkien 1 ja 3 välillä.
+  * otetaan magneettikuva hetkellä 2 ja tunnistetaan erot ekaan kuvaan.
+  * jos kuvien erot ovat yhtä, eli hetkien 2 ja 3 kuvat ovat "samat", aikamatkustus muuttaa aivojen rakennetta.
+- tutkijoiden mukaanottaminen vaarantaisi laitteen
+- ei suurta mielenkiintoa vaikeiden asioiden selvittämiseen
+- magneettikuvatestiä ei ole vielä tehty.
+- X ei ota kokeilunhalussaan riskejä aikamatkustuksessa.
+- Eka aikamatkustuskerta oli riki, mutta silloin hän ei edes uskonut.
+- On epäselvää, mitä aikamatkaajan alkuperäiselle keholle käy matkatessa.
+
+Filosofinen näkökulma:
+- dualismi: mieli on kehosta erillinen ja voi siirtyä kehosta toiseen ajassa.
+- keho on ruokittava, mutta mieli ei varsinaisesti tarvitse mitään välttämätöntä (pitkä ikä)
+- suuri harppaus menneisyyteen on myös rasite: elämää on elettävä uusiksi myös tylsistä hetkistä.
+- ikuinen nuoruus on mahdollinen, mutta ympäristö toistuu silloin samana.
+- ihmiskontaktit vaativat pitkän aikajänteen.
+- Uusia hyviä ystäviä ei voi luoda keinotekoisesti aikamatkustuksessa.
+- mahdolliset maailmat -näkökulma
+- Sattumien käsittely: joissakin mahdollisissa maailmoissa tapahtuu, toisissa ei.
+
+---
+
+Muuta:
+- Viittaus Groundhog Dayhin: sama mahdollista jos huvittaa
 
 
