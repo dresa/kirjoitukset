@@ -1,0 +1,5 @@
+novellit/*.aux
+novellit/*.synctex.gz
+novellit/*.log
+novellit/*.pdf
+
