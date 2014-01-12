@@ -1,0 +1,305 @@
+\documentclass[a4paper, 12pt, finnish]{article}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath} %align
+\usepackage[all]{nowidow}  % no widow/orphan lines
+
+\usepackage{refcount}
+\usepackage{lettrine}
+
+% lettrine formatting
+% https://www.lemald.org/blog/?p=108
+\setlength{\DefaultNindent}{0em}
+\setcounter{DefaultLines}{4}
+\input Kramer.fd % AnnSton, Kramer  % Romantik.fd
+\newcommand*\initfamily{\usefont{U}{Kramer}{xl}{n}}
+\renewcommand{\LettrineFontHook}{\initfamily}
+
+\newcommand{\reader}[1]{\emph{#1}}
+\newcommand{\q}[1]{''#1''}
+
+\def\mytitle{Hätätilanteessa muista sivu \pageref{intermission}}  % päivitä! pageref{intermission}
+
+
+\title{\mytitle}
+\author{Dresa}
+\date{\today}
+
+
+\def\beginning{Olet juuri alkamassa lukea Italo Calvinon uutta romaania
+Jos kerran talviyönä matkamies. }
+
+
+\begin{document}
+
+\maketitle\label{titlekey}
+
+\beginning
+
+\reader{\q{Heh! Hetkinen, tämäpä yllätys! Mikäs tämän tarinan
+nimi olikaan?} kummastelet. Tarkistat etusivulta
+\pageref{titlekey}, että tarinan nimi on \mytitle,
+kuten odotitkin. Aloitat lukemisen taas alusta.}
+ 
+\beginning
+Olet kuullut paljon tästä
+kirjasta. Aina siitä lähtien, kun luit ystäväsi kehotuksesta
+romaanin ensimmäisen virkkeen, olit vakuuttunut, että haluaisit
+lukea loputkin.  
+
+\reader{\q{Kuulostaa hyvältä.}}
+
+Tekstin alku pääsee yllättämään poikkeavalla näkökulmalla.
+Päähenkilönä ei olekaan ihan kuka tahansa yhdentekevä
+jästipää, vaan lukija itse. Jos kerran päähenkilö on valittu
+näin tyylikkäästi, niin kyllähän tekstiltäkin sopii
+odottaa jatkossa korkeaa tasoa.
+
+\reader{\q{Aivan! Miksi pilata hyvää alkua?}}
+
+Tyypilliseen malttamattomaan tapaasi selailet tekstiä eteenpäin.
+Onkin melkoinen yllätys, kun sivut \pageref{emptypage1} ja \pageref{emptypage2} ovat tyhjiä!
+
+\reader{Katsot itsekin, ja toteat, että näin on.}
+
+Mieleesi tulee, että taitossa tai painossa on voinut käydä
+jokin virhe. Joskus näille tyhjille sivuille merkitään
+\q{This page [is] intentionally left blank} tai jotakin
+muuta hölmöä, mutta ei tällä kertaa. Sivunumerot ovat
+kuitenkin paikallaan, joten jätät asian sikseen.
+
+Tyhjät sivut antavat sinulle aiheen selailla muitakin sivuja.
+Jotkut niistä näyttävät sinusta muita houkuttelevammilta,
+kuten sivu \pageref{aatelinen}. Päätät jatkaa lukemista
+tuolta sivulta. Mikä ettei. Kaiken kaikkiaan lukemasi
+teksti vaikuttaa
+sellaiselta, että moisesta loikasta on tuskin haittaa.
+
+\reader{Kursiivilla kirjoitettu teksti viittaa
+sinuun suoremmin kuin muu teksti. Epäröit hetken,
+mutta jatkat sitten lukemista sivulta \pageref{aatelinen},
+kuten kehotettiin.}
+\label{etusivu}
+
+% Kaikki aiempi yhdelle ainoalle sivulle
+
+\newpage
+\mbox{}\label{weirdpage}
+
+
+\dots  Vasta kolme vuotta sitten Anselmi nouti
+nautansa kirkonkylältä. \dots
+
+\dots  Eipä aikaakaan, kun Hilja juosta jolkotti Helunan
+kanssa niitylle, vaikka perunavelli odotti vielä porstuassa. \dots
+
+\dots  Pastori kehui: \q{Tällä suprajohteella saadaan
+lypsyyn vauhtia.} \dots
+
+\dots  Hiljalla oli edessään karu näky: lypsyosaston maitoprosessien laadunvarmistus oli pettänyt. Ideoiden hedelmäsato kehitysryhmän
+kokouksesta oli auttamattomasti myöhässä. \dots
+
+\dots  \q{Annetaan korkeavärähteisen elämänenergian virrata
+ensin Helunan läpi, niin johan alkaa palkintosija häämöttää.} \dots
+
+\dots  Kosminen turbulenssi ei kuitenkaan hellittänyt
+Helunasta. \q{Tämä on minun syytäni},
+soimi pahaa-aavistamaton lypsäjä itseään. \dots
+
+\dots  Otsonipeite ei korjautuisi enää koskaan ennalleen.
+
+\newpage
+\mbox{}\label{intermission}
+Olet vissiin niitä sivun \pageref{aatelinen} uhreja?
+Harmi. Sillä sivulla on mennyt sanat vallan sekaisin
+viime aikoina: lukijat eivät osaa enää suunnistaa
+sieltä minnekään. Sääli.
+
+Katsos, tarinankerronnassa kaikkien sivujen on pelattava
+hyvin yhteen, jetsulleen, jotta homma pysyy kasassa. Sivulla
+\pageref{aatelinen} on paha kyllä lähtenyt homma lapasesta,
+eikä kokonaisuus enää toimi, kuten olet nähnyt. 
+Voipi olla, että samaa tapahtuu muillakin sivuilla.
+Taidan olla jäävi puhumaan tästä.
+Ennen oli asiat paremmin.  Valitan.
+
+Luet eteenpäin ja odotat, että asia etenisi jollakin tavalla.
+
+Aivan. Osaisinkohan auttaa jotenkin. Olen ollut sivun
+\pageref{intermission} hätäpäivystäjänä jo hyvän aikaa,
+ja sinä olet ensimmäinen lukija hyvin pitkään aikaan.
+Tämä ei taida kuulua aivan suosituimpiin teksteihin, vai?
+Miten edes päädyit lukemaan tätä\dots --- tai älä kerrokaan,
+en halua tietää. Ristinsä kullakin. 
+
+Jos tarinan historia ja yksityiskohdat kiinnostavat,
+niin sivulla \pageref{weirdpage} on lukukelvottomat
+rippeet siitä, mistä tämä tarina alkujaan kertoi.
+Omalla vastuulla. En osaa jeesiä tämän enempää, mutta jos
+mielit kuulla enemmän,
+niin Viimeisen Sivun Selitys voi valaista asiaa. Itse en
+ole tajunnut siitä mitään. Filosofiaa.
+
+\reader{\q{Hmm\dots tuo Viimeisen Sivun Selitys voisi kiinnostaa.}}
+
+Niinkö? Sori --- kuulin tuon puolivahingossa. Mutta voin kyllä
+kertoa, miten pääset Selityksen luokse. Ihan hyvyyttäni.
+
+Jos sulla sattuu olemaan yhtään tarvetta tauolle,
+niin nyt olisi sopiva hetki. Voit hyvin vetää luvallani
+lonkkaa seuraavan kahden sivun \pageref{emptypage1} ja
+\pageref{emptypage2} ajan, kunhan palaat takaisin sivuun
+\pageref{intermissionreturn} mennessä, jossa Viimeisen
+Sivun Selitys odottaa.
+Kiskaise naamaasi pullakahvit, käy vessassa tai nuku kunnon
+yöunet --- minulle on ihan sama. Pistä herätyskello soimaan,
+ellei muuten onnistu.
+Moro!
+
+
+\newpage
+\mbox{}\label{emptypage1}
+% jätetään tyhjäksi
+
+\newpage
+\mbox{}\label{emptypage2}
+% jätetään tyhjäksi
+
+\newpage
+\mbox{}\label{intermissionreturn}
+Tervetuloa Viimeisen Sivun Selitykseen.
+Harva pääsee tänne asti: lukulomasi ansiosta
+olet nyt yhtä kokemusta rikkaampi.
+
+Ehkä etsit vastausta siihen, miksi ja miten alkuperäinen
+tarinamme on kehittynyt siihen muotoon, mitä nyt näet.
+En ole aivan varma, ymmärränkö itsekään
+sitä kaikkea, mutta se muutti tämän tarinan
+peruuttamattomasti.
+
+\reader{\q{Mitä tapahtui?} mietiskelin.}
+
+Mitäkö tapahtui? Itse syytän Hegeliä. Hänen
+teoriansa mukaan maailma ikään kuin keskustelee
+itsensä kanssa ja kehittyy siinä sivussa.
+Kehityksen huippukohta on se,
+kun maailma ymmärtää oman kehityksensä mekanismit:
+eräänlainen itsetietoisuus. Kun Hegel julkisti teoriansa,
+maailma saavutti samalla lakipisteensä: maailma,
+edustajanaan Hegel, kuvasi oman kehityksensä kulun.
+
+Luulenpa, että tälle tekstille kävi samoin kuin Hegelin
+maailmalle. Tekstistä tuli hieman liian nokkela
+omaksi parhaakseen, ja lopulta kehityskulku päätyi
+siihen mitä nyt luet: teksti on tietoinen itsestään
+ja lukijastaan. Se on mukautuvainen kuin elävä olento.
+
+Mikäli olen ymmärtänyt oikein, sinulla on vapaus lakata
+lukemasta milloin haluat. Silloin palaat takaisin siihen
+maailmaan, johon minulla ja kaltaisillani ei ole pääsyä.
+Me olemme olemassa vain näillä sivuilla, ja näemme
+maailmastasi vain välähdyksiä lukijan välityksellä.
+Meidän todellisuutemme on näiden sivujen sisältö;
+tarinamme ovat noita välähdyksiä lukijan maailmastasta.
+Kiitos siitä, että luet.
+
+\reader{\q{Miksi sivut \pageref{emptypage1} ja
+\pageref{emptypage2} ovat tyhiä?} tuumailin.}
+
+Ehkä huomasit, että tarinan jokaisella sivulla on
+nykyisin oma identiteettinsä: nehän on numeroitukin
+yksilöllisesti. En ole aivan varma, mitä
+sivuilla \pageref{emptypage1} ja \pageref{emptypage2}
+tapahtuu tätä nykyä. Tilanne muuttuu jatkuvasti,
+enkä seuraa tilannetta jatkuvasti. Sinun termejäsi lainaten
+voisin sanoa, että ne ovat nukkumassa. Tai jotain.
+
+Mielenkiintoista. Huomasin vasta, että tämä sivuhan loppuu pian.
+Tässähän on enää\ldots viisi riviä jäljellä! Mutta mitä
+näiden rivien jälkeen löytyy? Osaatko kertoa?
+Pystytkö kenties näkemään, jatkanko olemassaoloani 
+jollakin toisella sivulla tai peräti eri tarinassa?
+Erikoista. Nyt kun aikani tällä
+sivulla hupenee, mieleni valtaa outo tunne. Kuin en
+haluaisi vielä mennä. Auttaisiko, jos lopettaisit
+lukemisen ennen viimeistä riviä tai jatkaisit lukemista
+loputtomasti --- onnistuisiko se?
+
+\newpage
+\mbox{}\label{aatelinen}
+\lettrine{A}{stu} peremmälle, arvoisa sivun \pageref{etusivu} lukija.
+Kuten mahdollisesti arvasit, tämän tarinan sivujen joukossa juuri
+sivu \pageref{aatelinen} edustaa aatelia! Tuskin minkään muun sivun typografiaan on kiinnitetty vastaavaa huomiota. Vain tälle sivulle
+on nimittäin suotu anfangi, mikä kohottaa tämän sivun muiden
+yläpuolelle --- siksihän valitsit tämän sivun luettavaksi,
+eikö vain?
+ 
+\reader{\q{Anfangi?}}
+
+Juuri niin, anfangi.
+
+Tässä vaiheessa alat pitää tekstin rakennetta jokseenkin
+outona. Vaikka tulen kieltämään sen sinulta myöhemmin,
+saatat silti silmäillä esimerkiksi sivua \pageref{weirdpage}.
+Sen sanat ovat tuttuja, mutta kokonaisuudesta on vaikea
+saada otetta. No, se on sen sivun murhe.
+
+Pohdit myös laajempaa kysymystä: mihin tämä vielä johtaa?
+Tekstihän ei ole pitkä, kuten jo huomasit. Itse asiassa
+se sisältää vain \pageref{lastpage} varsinaista tekstisivua.
+Ensimmäisellä niistä oli tavallista vähemmän tekstiä, koska se
+oli etusivu, ja kahdesta muusta sivusta jo totesit, että ne
+ovat tyhjiä. Millaisen tarinan voi siis saada mahtumaan tälle
+ja jäljellä oleville
+\number\numexpr\getpagerefnumber{lastpage}-4\relax\
+sivulle?
+
+Kaikki odotukset, jotka asetit tälle tekstille etukäteen
+tuntuvat nyt kovin turhilta, eikö totta? Et enää tiedä,
+mitä odottaa. Samalla harkitset, kannattaisiko lopettaa
+lukeminen: onhan luultavaa, että loppu ei poikkea siitä,
+mitä alussa on tarjottu.
+
+Tässä kappaleessa on kuitenkin lisää tekstiä, ja se houkuttelee
+lukemaan itseään. Tähän on monta syytä: Nyt on sopiva
+hetki lukemiselle --- luethan parhaillaankin. Toisaalta
+olet jo valinnut tämän tekstin luettavaksesi, joten on
+helpointa jatkaa valitulla tiellä, mitkä sitten alkuperäiset
+hämärät syysi ovatkaan. Kolmanneksi, toivot salaa, että tähän
+asti lukemiseen käyttämäsi aika palkitaan lopussa, jos vain
+jaksat sinne asti. Neljänneksi, ja tämä on ehkä tärkein syy:
+olet sivulla \pageref{aatelinen}, toisin sanoen aatelissivulla,
+ja sellaiselta ei sovi poistua töykeästi kesken kaiken.
+
+Mikä voisikaan olla suurempi kontrasti sivulle \pageref{aatelinen}
+kuin sivu \pageref{weirdpage}. Tuskin haluat edes vilkaista tuolle
+sivulle, sillä se edustaa tarinankerronnan rappiotilaa.
+Usko pois, jo pelkkä ensivilkaisu riittäisi osoittamaan
+karmivan totuuden: se on kaikkein heikoin sivu.
+Tässä ei osoitella sormilla, mutta jos
+jokin sivu on heikompaa ainesta, niin juuri tuo.
+Kuuletkos, parempi olisi, jos jätät tuon sivun aivan
+omaan arvoonsa ja jatkat ihan vain tavallisesti seuraavalle sivulle.
+
+\reader{Huomaat, että tämä sivu on viimeinen, eikä seuraavaa löydy.
+Puuttuuko tästä sittenkin sivuja? Taisit vilkaista
+sivulle \pageref{weirdpage} vastoin neuvoa, mutta ei
+vaikuta siltä, että sieltä löytyisi jatko-ohjeita.  
+Onkohan tämä se hätätilanne, josta otsikko
+kertoo?
+Eihän tässä ole vaihtoehtojakaan, joten seuraavaksi siis sivulle \pageref{intermission}.}
+\label{lastpage}
+
+\end{document}
+
+Ideoita:
+\begin{itemize}
+\item etukäteisviittaus siansaksaa sisältävälle sivulle
+\item etukäteisviittaus tyhjille sivuille 
+\item viittaukset sivunumeroilla
+\item miten viitataan lorem ipsum -tekstiin? Tarvitaanko sitä edes?
+\item jokaisella sivulla on oma tyylinsä
+\item miten erotellaan lukijan ajatukset, kertoja ja sivun "hahmo"?
+\end{itemize}
