@@ -5,12 +5,33 @@
 \usepackage{amsmath} %align
 \usepackage[all]{nowidow}  % no widow/orphan lines
 
+% == Fonttivalinta ==
+%PX Font:
+%\usepackage{pxfonts}
+%Palatino:
+%\usepackage[sc]{mathpazo}
+%\linespread{1.05}         % Palatino needs more leading (space between lines)
+%Garamond EB:
+%\usepackage[lining,scaled=.95]{ebgaramond}
+%Linux Libertine:
+%\usepackage{libertine}
+%New Century Schoolbook:
+\usepackage{fouriernc}
+%Stix:
+%\usepackage{stix}
+%Times:
+%\usepackage{times}
+% Day Roman:
+%\renewcommand*\rmdefault{dayrom}
+
+
 \title{Mielenliikutus}
 \author{Dresa}
 \date{\today}
 
-% quotation, lainaus: \q{Häh}, sanoin.
+% quotation, lainaus: \q{Häh}, sanoin. --> "Häh", sanoin.
 \newcommand{\q}[1]{''#1''}
+\newcommand{\openq}[1]{''#1} % open quote, monen kappaleen mittaisille lainauksille
 
 % jump to the next scene, kohtauksen vaihto, aikaa kuluu
 \def\jump{\vspace{2mm} \centerline{$\diamondsuit$} \vspace{2mm}}
@@ -71,7 +92,7 @@ joka mumisi jotakin epäkiinnostavaa maksun verotuksesta.
 Nousin ulos autosta ja katselin ympärilleni. Kadulla näkyi vain
 satunnaisia uneliaita ohikulkijoita, joita saapumiseni ei näyttänyt
 tippaakaan kiinnostavan. Ja miksi olisikaan. Kuski ehti jo avata
-tavarasäilön luukun, kun pyysin häntä odottamaan. Olin nimittäin
+tavarasäilön luukun, mutta pyysin häntä odottamaan. Olin nimittäin
 pyytänyt jo etukäteen Tainaa järjestämään kantoapua --- kysyminen ei
 maksa mitään.
 
@@ -86,8 +107,8 @@ Taina ja minä esittäydyimme toisillemme. Tapasin Tainan nyt ensi kerran. Arvio
 Vastaanottovirkailija katseli minua palvelutiskin takaa kummasti,
 kun äkkiä puhuinkin täysin ymmärrettävällä kielellä.
 
-\q{Aineistoni on vielä taksissa}, kerroin. Anonyymit harjoittelijat ymmärsivät
-heti yskän ja lähtivät noutamaan tavaraa autosta.
+\q{Aineistoni on vielä taksissa}, kerroin. Anonyymit harjoittelijat 
+ymmärsivät heti yskän ja lähtivät noutamaan omaisuuttani.
 
 \q{Vien teidät kokoustilaan}, sanoi Taina. \q{Tavaranne saapuvat kyllä pian.}
 
@@ -106,7 +127,7 @@ takaista tyyliä edustava kokoustila.
 \q{Onko huone sopiva teille?}
 
 \q{On kyllä}, totesin. Huone oli jopa suurempi kuin olin pyytänyt.
-Valtava pöytä jakoi tilan, ja seinät oli koristeltu muinaisilla
+Valtava pöytä jakoi tilan, ja seinät oli koristeltu edesmenneillä
 presidenteillä. Kokoustilan vieressä oli reilunkokoinen
 edustusparveke ja käytävällä pieni kahvila, josta sai muun
 muassa munkkipossuja.
@@ -118,7 +139,7 @@ Kohteliaisuussyistä päätin
 jättää aiemmin hankkimani munkit syrjään: \q{Iso kuppi mustaa kahvia
 ja munkkipossu}, vastasin.
 
-Palasimme Tainan kanssa kokoushuoneeseen ja asetuimme aloillemme,
+Palasimme Tainan kanssa kokoushuoneeseen, ja asetuimme aloillemme,
 pyynnöstäni pöydän vastakkaisiin päätyihin.
 Jos toiveeni tuntuikin Tainasta oudolta, en havainnut sitä hänestä.
 Pilvistä säätä koskeva kankea sananvaihtomme muuttui lopulta
@@ -142,7 +163,7 @@ Toinen syy on siinä, miten jokapäiväistä elämäänne luonnehditaan.}
 \q{Mitä elämästäni on kerrottu?} kysyin kiinnostuneena.
 
 \q{Merkitsette kuulemma muistiin elämänne kaikkein pienimmätkin
-yksityiskohdat, sekä menneet että tulevat, onko näin?}
+yksityiskohdat, sekä menneet että tulevat. Onko näin?}
 
 \q{Kyllä vain, tallennan elämääni muun muassa tekstin, äänen,
 kuvan ja videon keinoin. Tekninen kehitys tuo jatkuvasti
@@ -152,7 +173,7 @@ Avasin avustajien tuomat säkit ja kaivoin esille sekalaisia
 papereita, muistivihkoja, tallenteita, viestimiä
 ja soitinlaitteita vuosien takaa.
 
-\q{Tässä näette ensimmäiset merkintäni, jotka tein 22-vuotiaana},
+\q{Tässä näette ensimmäiset merkintäni, jotka tein kaksikymmentäkaksivuotiaana},
 sanoin, ja vein kasan muistivihkoja ja laitteita Tainan
 luokse. \q{Tapani ovat muuttuneet noista ajoista huomattavasti:
 ajatusten tallentaminen ja niiden palauttaminen mieleen on
@@ -171,12 +192,11 @@ ollut enää käyttöä merkinnöilleni.
 
 Taina ei vastannut mitään.
 
-\q{Mitä varten tallennatte elämäänne?}, kysyi Taina hetken kuluttua.
+\q{Mitä varten tallennatte elämäänne?} kysyi Taina hetken kuluttua.
+
 Halusin vältellä aihetta vielä hetken, jotta saisin kuulla,
 mikä oli saanut Tainan ottamaan minuun yhteyttä
-toissapäivänä.
-
-Vastasin: \q{Minulle on tärkeää tuntea menneisyys.
+toissapäivänä. Vastasin: \q{Minulle on tärkeää tuntea menneisyys.
 Lupaan vastata aiheeseen pian.}
 
 Taina jatkoi taustojen kartoittamista: \q{Päädyitte julkisuuteen
@@ -190,14 +210,14 @@ sitten PeliLeaks-verkkosivulla. Oletteko tutustunut tuloksiin?}
 
 \q{En ole}, vastasin. Se oli totta, mutta arvasin kyllä tulosten merkityksen.
 
-\q{Teidän nimenne on joka tapauksessa jokaisella listalla kärkipäässä.
+\openq{Teidän nimenne on joka tapauksessa jokaisella listalla kärkipäässä.
 Tuolloin ajattelin, että olette vain taitava vedonlyöjä, ja olette
 saanut voittonne ahkeralla taustatyöllä. Sen jälkeen hankkimani
 tiedon valossa vaikuttaa kuitenkin siltä, että taito ei yksin riitä
 selitykseksi. Missä vain liikuttekin, teille tuntuu siunaantuvan kohtuullisia 
-arvontavoittoja ja sijoitustuottoja samalla kun epäonni karttaa teitä.
+arvontavoittoja ja sijoitustuottoja samalla kun epäonni karttaa teitä.}
 
-Kaikesta päätellen pidätte matalaa profiilia, mutta pienistä
+\q{Kaikesta päätellen pidätte matalaa profiilia, mutta pienistä
 puroista on lopulta kertynyt suuria jokia, ja olette nyt täällä.
 Mistä on kyse?}
 
@@ -240,7 +260,7 @@ mutta juttu ei oikein sujunut. Etäisyys välillämme ei tainnut helpottaa.
 \q{Pystyn matkaamaan ajassa.}
 
 Pidin tässä kohtaa
-tauon, jonka aikana tarkkailin Tainaa kiinnostuneena.
+tauon, jonka aikana tarkkailin Tainan reaktiota.
 Kerroin nimittäin kyvystäni ensi kertaa. Taina tarkasteli
 minua vähäeleisen asiallisesti. Piti minua luultavasti hulluna!
 Halusin antaa itsestäni kuvan järkevänä miehenä, joten
@@ -249,7 +269,7 @@ jotta pystyisin muistamaan menneisyyden tapahtumat riittävän
 tarkasti. Vietän elämääni kuten haluan ja tarvittaessa
 palaan menneisyyteen.}
 
-Taina oli mietteisään, kuten sopii odottaa.
+Taina oli mietteisään, kuten sopi odottaa.
 
 \q{Olette siis matkustanut ajassa paljonkin?} tuumaili Taina nyt
 aiempaa varautuneemmin.
@@ -257,7 +277,7 @@ aiempaa varautuneemmin.
 \q{Kyllä}, vastasin, \q{vähintään satoja kertoja --- en ole
 itse asiassa pitänyt lukua}.
 
-\q{Kertokaa, mitä viestiä tulevaisuus tuo?} uteli Taina.
+\q{Voitteko kertoa, mitä viestiä tulevaisuus tuo?} uteli Taina.
 
 Päätin jättää ivan huomiotta, ja sanoin:
 \q{Itse asiassa en ole koskaan matkustanut
@@ -327,7 +347,7 @@ olen noudattanut tinkimätöntä kurinalaisuutta.}
 Hörppäsin tässä kohtaa lasistani kylmää vettä. Dramatiikan mestari.
 
 \q{Ensinnäkin, en ole koskaan
-aikamatkustanut kehooni, joka olisi nuorempi kuin 22 vuotta.
+aikamatkustanut kehooni, joka olisi nuorempi kuin kaksikymmentäkaksi vuotta.
 En ole varma, pystyykö esimerkiksi lapsen pieni pää tai
 vasta kehittymässä olevat aivot ottamaan vastaan nykyistä mieltäni.
 Sitä paitsi, teini-iän läpi eläminen uudelleen ei inspiroi minua.}
@@ -344,13 +364,13 @@ en rohkene siirtyä tulevaisuuteen.}
 Käytätte paljon vaivaa niiden laatimiseen --- miten merkinnät
 auttavat teitä?} Taina kysyi.
 
-\q{Aivan. On katsokaas turvallisempaa siirtyä nukkuvaan kehoon
+\openq{Aivan. On katsokaas turvallisempaa siirtyä nukkuvaan kehoon
 kuin liikenteen seassa kulkevaan,
 sillä ajan ja paikan orientaatio häiriintyy hetkeksi.
-Merkintäkokoelmani tarjoaa käyttööni laajan kokoelman
-menneisyyden tilanteita ja hetkiä, joista voin valita.
+Merkintäni tarjoavat käyttööni laajan kokoelman
+menneisyyden tilanteita ja hetkiä, joista voin valita.}
 
-Ennen kuin siirryn menneisyyteen, merkintöjen avulla voin lisäksi opiskella
+\q{Ennen kuin siirryn menneisyyteen, merkintöjen avulla voin lisäksi opiskella
 siihen aikaan liittyviä tietoja: näin en vaikuta liian oudolta.}
 
 \q{Totta puhuakseni}, Taina ehti sanoa, \q{teitä on
@@ -359,12 +379,12 @@ kuvailtu\dots\allowbreak omalaatuiseksi, pyrkimyksistänne huolimatta.}
 Taina vaikutti nyt keksivän uusia kysymyksiä vaivatta.
 \q{Koetteko olevanne etäinen tai hajamielinen?}, kuului seuraava.
 
-\q{Muiden silmissä varmasti molempia}, naurahdin. \q{Oletetaan, että
+\q{Muiden silmissä varmasti molempia}, naurahdin. \openq{Oletetaan, että
 olen sopinut ystäväni kanssa juhlien järjestämisen yksityiskohdista.
 Sitten omasta näkökulmastani elän vaikkapa kolmenkymmenen vuoden
-ajan aikamatkustuksen avulla ja palaan jälleen tuohon hetkeen.
+ajan aikamatkustuksen avulla ja palaan jälleen tuohon hetkeen.}
 
-Jos muistiinpanoni ovat hatarat, en välttämättä muista juuri
+\q{Jos muistiinpanoni ovat hatarat, en välttämättä muista juuri
 mitään siitä keskustelusta, joka ystäväni mielestä
 käytiin hetki sitten. Pakko myöntää, että ihmissuhteeni ovat
 kärsineet: elämäni varmaankin näyttää muiden silmissä olevan
@@ -378,17 +398,16 @@ se näkyy henkilötiedoistanne, mutta kuinka vanha mielenne on?}
 Jäin pohtimaan asiaa hetkeksi. Aikakäsitykseni poikkesi
 ymmärrettävistä syistä tavallisesta, joten en ollut koskaan
 tullut ajatelleeksi mieleni ikää. Lopulta vastasin:
-\q{Vanhempi kuin kukaan muu, sen verran osaan sanoa.
+\openq{Vanhempi kuin kukaan muu, sen verran osaan sanoa.}
 
-Olen kolunnut maailman halki,
+\q{Olen kolunnut maailman halki,
 tutustunut ihmiselämän monipuolisuuteen, opetellut haluamani
 taidot, kerännyt lähes rajatta erilaisia kokemuksia
 ja nähnyt ajastamme erilaisia versioita. Niin, ja lisäksi
 viiniä, laulua ja nautintoja.}
 
-\q{Palaan vielä varsinaiseen kykyynne. Mitä teette,
-jotta aikamatka tapahtuu? Siis käytännössä?} Taina vaati saada
-tietää.
+Taina vaati lisätietoja: \q{Palaan vielä varsinaiseen kykyynne.
+Mitä teette, jotta aikamatka tapahtuu? Siis käytännössä?}
 
 Sanoin varoen: \q{Ennen kuin vastaan, pyydän teitä
 pysymään jatkossa paikallanne. Jos haluatte nähdä lähemmin,
@@ -422,12 +441,12 @@ korvautui innokkuudella, jonka pallon läpitunkeva hohde synnytti.
 Isäni serkku, jota pidin viisaana mutta merkillisenä
 miehenä, oli määrännyt testamentissaan minulle
 lahjoitettavaksi erään tallelokeron sisällön,
-kun täyttäisin 22 vuotta. Tallelokerosta
+kun täyttäisin kaksikymmentäkaksi vuotta. Tallelokerosta
 löysin tämän pallomaisen laitteen, erikoisia vieraita
 tekstejä ja minulle osoitetun kirjeen.
 
 Kirjeessä kerrottiin, kuinka laite oli aikoinaan löydetty
-Länsi-Australiasta aavikon kätkemistä muinaisista raunioista,
+Länsi-Australiasta aavikon kätkemistä muinaisista raunioista
 ja kuinka laite oli sittemmin päätynyt omistajalta toiselle.
 
 Laitteessa ei ollut minkään nykykulttuurin piirteitä.
@@ -435,7 +454,7 @@ Sen pinnalla oli monimutkainen koneisto,
 jolla voi asettaa halutun ajanhetken. Oletin,
 että laitteen aiemmat omistajat olivat löytäneet hajanaisista
 dokumenteista neuvot, joilla he oppivat laitteen käytön.
-Itse en osannut tulkita sitä kolmiulotteisia kirjoitusta.
+Itse en osannut tulkita sitä kolmiulotteista kirjoitusta.
 
 Kerroin Tainalle kaiken, mitä tiesin pallon alkuperästä ja muustakin.
 Taina kuunteli tarkkaavaisena, mutta hänen mieleensä tulvi niin paljon
@@ -465,19 +484,19 @@ Palaan noin vuoden verran ajassa taaksepäin.}
 \q{Jos kerran haluatte välttää kaikkia riskejä, niin miksi
 ihmeessä tulitte tänne haastateltavaksi?} Taina kummasteli.
 
-\q{Niin}, huokaisin. \q{En pitänyt haastattelua kovin vaarallisena,
+\q{Niin}, huokaisin. \openq{En pitänyt haastattelua kovin vaarallisena,
 sillä olenhan varautunut: aikakone on ollut koko ajan käyttövalmiina.
 En ole puhunut aikamatkailusta aiemmin 
 kenenkään kanssa, ja olen kaivannut ulkopuolisen mielipidettä.
-Minua kiinnosti myös tulla haastatelluksi ensi kertaa.
+Minua kiinnosti myös tulla haastatelluksi ensi kertaa.}
 
-Aikamatkailun tutkiminen on osoittautunut itselleni
+\openq{Aikamatkailun tutkiminen on osoittautunut itselleni
 liian vaikeaksi, enkä ole voinut ottaa tutkijoihin
 yhteyttä laitteen menettämisen pelossa.
 Halusin antaa tässä samalla merkittävän jutunaiheen ja
-testata elämäntapani järkevyyttä keskustelemalla.
+testata elämäntapani järkevyyttä keskustelemalla.}
 
-Mitä sanotte? Vaikka elämäntapani onkin vieras,
+\q{Mitä sanotte? Vaikka elämäntapani onkin vieras,
 vaikuttaako toimintani hyvin perustellulta?}
 
 Taina vastasi epäröiden: \q{Tuota, en osaa sanoa.
@@ -527,7 +546,7 @@ lattialla, jolle olin ilmeisesti kaatunut. Nousin istumaan, ja
 kun katselin nopeasti ympärilleni, huomasin tuntemattoman
 presidentin katseen seinällä ja kätkemäni munkkikääreen pöydän alla.
 Jalkojeni alla oli kasa teräväreunaisia hiutaleita.
-Aurinko paistoi ikkunasta kirkkaasti.
+Aurinko paistoi ikkunasta kirkkaasti sälekaihtimen läpi.
 
 Katsoin Tainaa hämmentyneenä. Lohdutukseksi Taina esitti hetken
 kuluttua näkemyksensä: \q{Mietin tässä vain.
